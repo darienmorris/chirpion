@@ -1,0 +1,397 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"oppo",
+				"opponentPlatform"
+			],
+			[
+				"RIGHT",
+				"RIGHT"
+			],
+			[
+				"th",
+				"th	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 267.0,
+		"selected_items":
+		[
+			[
+				"scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"syntax ",
+				"Set Syntax: SCSS"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"sassb",
+				"SassBeautify: Convert from CSS to current type"
+			],
+			[
+				"package controll",
+				"Package Control: Install Package"
+			],
+			[
+				"syntax:css",
+				"Set Syntax: CSS"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/Applications/MAMP/htdocs/chirpion/vendor/phpspec/phpspec/features/options/developer_chooses_stop_on_failure.feature",
+		"/Applications/MAMP/htdocs/chirpion/vendor/phpspec/phpspec/features/matchers/developer_uses_string_end_matcher.feature",
+		"/Applications/MAMP/htdocs/chirpion/vendor/phpspec/phpspec/features/runner/developer_skips_specs.feature",
+		"/Applications/MAMP/htdocs/chirpion/vendor/phpspec/phpspec/features/exception_handling/developer_specifies_exceptions.feature",
+		"/Applications/MAMP/htdocs/chirpion/database/seeds/DatabaseSeeder.php",
+		"/Applications/MAMP/htdocs/chirpion/config/database.php",
+		"/Applications/MAMP/htdocs/chirpion/vendor/danielstjules/stringy/phpunit.xml.dist",
+		"/Applications/MAMP/htdocs/chirpion/.env",
+		"/Applications/MAMP/htdocs/chirpion/resources/assets/less/app.less",
+		"/Applications/MAMP/htdocs/chirpion/public/css/app.css",
+		"/Applications/MAMP/htdocs/mighty-network/src/battle/Battler.js",
+		"/Applications/MAMP/htdocs/mighty-network/src/battle/Arena.js",
+		"/Applications/MAMP/htdocs/chirpion/app/User.php",
+		"/Applications/MAMP/htdocs/index.php",
+		"/Applications/MAMP/htdocs/mighty-network/src/battle/HealthBar.js",
+		"/Applications/MAMP/htdocs/mighty-network/src/battle/AmmoBar.js",
+		"/Applications/MAMP/htdocs/mighty-network/src/battle/cards/Spark.js",
+		"/Applications/MAMP/htdocs/mighty-network/src/battle/Platform.js",
+		"/Applications/MAMP/htdocs/mighty-network/index.html",
+		"/Applications/MAMP/htdocs/mighty-network/main.js",
+		"/Applications/MAMP/htdocs/mighty-network/src/states/BattleState.js",
+		"/Applications/MAMP/htdocs/mighty-network/src/battle/Hero.js",
+		"/Applications/MAMP/htdocs/mighty-network/src/battle/Opponent.js",
+		"/Applications/MAMP/htdocs/mighty-network/src/battle/Tile.js",
+		"/Applications/MAMP/htdocs/mighty-network/src/entities/Arena.js",
+		"/Applications/MAMP/htdocs/mighty-network/src/entities/Battler.js",
+		"/Applications/MAMP/htdocs/mighty-network/src/battle/abilities/Spark.js",
+		"/Applications/MAMP/htdocs/mighty-network/src/entities/Hero.js",
+		"/Applications/MAMP/htdocs/mighty-network/src/entities/Tile.js",
+		"/Applications/MAMP/htdocs/mighty-network/src/entities/Opponent.js",
+		"/Applications/MAMP/htdocs/mighty-network/src/entities/Platform.js",
+		"/Applications/MAMP/htdocs/mighty-network/src/entities/User.js",
+		"/Applications/MAMP/htdocs/mighty-network/src/base/Sprite.js",
+		"/Applications/MAMP/htdocs/battle-network/src/states/BattleState.js",
+		"/Applications/MAMP/htdocs/battle-network/src/entities/Battler.js",
+		"/Applications/MAMP/htdocs/battle-network/src/entities/Arena.js",
+		"/Applications/MAMP/htdocs/battle-network/src/controllers/StateManager.js",
+		"/Applications/MAMP/htdocs/battle-network/src/controllers/SoundManager.js",
+		"/Applications/MAMP/htdocs/battle-network/src/entities/Card.js",
+		"/Applications/MAMP/htdocs/battle-network/src/entities/Tile.js",
+		"/Applications/MAMP/htdocs/battle-network/src/entities/Player.js",
+		"/Applications/MAMP/htdocs/battle-network/src/entities/Opponent.js",
+		"/Applications/MAMP/htdocs/battle-network/index.html",
+		"/Applications/MAMP/htdocs/battle-network/main.js",
+		"/Applications/MAMP/htdocs/battle-network/project.json",
+		"/Applications/MAMP/htdocs/battle-network/src/SysMenu.js",
+		"/Applications/MAMP/htdocs/battle-network/src/Battle.js",
+		"/Applications/MAMP/htdocs/battle-network/res/textureTransparentPack.plist",
+		"/Applications/MAMP/htdocs/battle-network/CMakeLists.txt",
+		"/Applications/MAMP/htdocs/battle-network/src/config/GameConfig.js",
+		"/Applications/MAMP/htdocs/node/test.js",
+		"/Applications/MAMP/htdocs/battle-network/src/config/EnemyType.js",
+		"/Applications/MAMP/htdocs/battle-network/src/config/Level.js",
+		"/Applications/MAMP/htdocs/battle-network/cocos/frameworks/cocos2d-html5/CCBoot.js",
+		"/Applications/MAMP/htdocs/node/index.html",
+		"/Applications/MAMP/htdocs/battle-network/simulator.html",
+		"/Applications/MAMP/htdocs/battle-network/simulator/js/miniFramework.js",
+		"/Applications/MAMP/htdocs/prodigy/assets/styles/sass/base/_base.scss",
+		"/Applications/MAMP/htdocs/prodigy/assets/styles/sass/main.scss",
+		"/Applications/MAMP/htdocs/prodigy/Errors/pageNotFound.php",
+		"/Applications/MAMP/htdocs/prodigy/backup/index.php",
+		"/Applications/MAMP/htdocs/prodigy/assets/styles/sass/themes/_main.scss",
+		"/Applications/MAMP/htdocs/prodigy/assets/styles/sass/themes/_states.scss",
+		"/Applications/MAMP/htdocs/angular-dashboard/src/styles/main.css",
+		"/Applications/MAMP/htdocs/angular-dashboard/src/.sass-cache/5d97785f56cc8de224fd1e556b283e87cb7d0b42/_layout.scssc",
+		"/Applications/MAMP/htdocs/angular-dashboard/src/styles/sass/_inputs.scss",
+		"/Applications/MAMP/htdocs/tidy-scribe/src/styles/sass/main.scss",
+		"/Applications/MAMP/htdocs/tidy-scribe/src/.sass-cache/d44af004bdeac0beda1002d453143a75beb6ce9a/main.scssc",
+		"/Applications/MAMP/htdocs/angular-dashboard/src/.sass-cache/5d97785f56cc8de224fd1e556b283e87cb7d0b42/main.scssc",
+		"/Applications/MAMP/htdocs/angular-dashboard/src/styles/sass/main.scss",
+		"/Applications/MAMP/htdocs/tidy-scribe/src/styles/main.css",
+		"/Applications/MAMP/htdocs/tidy-scribe/src/styles/normalize.css",
+		"/Applications/MAMP/htdocs/responsive-portfolio/styles/sass/main.scss",
+		"/Applications/MAMP/htdocs/angular-dashboard/src/index.html",
+		"/Applications/MAMP/htdocs/angular-dashboard/src/dashboard/summary/summaryController.js",
+		"/Applications/MAMP/htdocs/angular-dashboard/src/dashboard/dashboard.js",
+		"/Applications/MAMP/htdocs/angular-dashboard/src/dashboard/summary/index.html",
+		"/Applications/MAMP/htdocs/tidy-scribe/src/app/app.js",
+		"/Applications/MAMP/htdocs/tidy-scribe/src/app/write/write.html",
+		"/Applications/MAMP/htdocs/tidy-scribe/src/app/common/userFactory.js",
+		"/Applications/MAMP/htdocs/tidy-scribe/src/app/common/services/documentFactory.js",
+		"/Applications/MAMP/htdocs/tidy-scribe/background.js",
+		"/Applications/MAMP/htdocs/tidy-scribe/manifest.json",
+		"/Applications/MAMP/htdocs/tidy-scribe/src/app/write/writeController.js",
+		"/Applications/MAMP/htdocs/tidy-scribe/src/index.html",
+		"/Applications/MAMP/htdocs/tidy-scribe/bower_components/textAngular/src/textAngular.js",
+		"/Applications/MAMP/htdocs/tidy-scribe/bower.json",
+		"/Applications/MAMP/htdocs/tidy-scribe/src/app/buy/buy.html",
+		"/Applications/MAMP/htdocs/tidy-scribe/src/app/buy/buyController.js",
+		"/Applications/MAMP/htdocs/tidy-scribe/src/background.js",
+		"/Applications/MAMP/htdocs/tidy-scribe/src/manifest.json",
+		"/Applications/MAMP/htdocs/tidy-scribe/src/app/write/WriteController.js",
+		"/Applications/MAMP/htdocs/learning-angularjs-app/basic-lists/index.html",
+		"/Applications/Sublime Text.app/Contents/MacOS/changelog.txt",
+		"/Applications/MAMP/htdocs/tidy-scribe/styles/sass/main.scss",
+		"/Applications/MAMP/htdocs/tidy-scribe/styles/main.css",
+		"/Applications/MAMP/htdocs/Responsive-Portfolio/index.html",
+		"/Applications/MAMP/htdocs/Responsive-Portfolio/styles/sass/main.scss",
+		"/Applications/MAMP/htdocs/Responsive-Portfolio/styles/main-b.css",
+		"/Applications/MAMP/htdocs/Responsive-Portfolio/styles/sass/main-b.scss",
+		"/Applications/MAMP/htdocs/Responsive-Portfolio/styles/sass/bootstrap/_bootstrap.scss",
+		"/Applications/MAMP/htdocs/Responsive-Portfolio/styles/sass/bootstrap/bootstrap.scss",
+		"/Applications/MAMP/htdocs/Responsive-Portfolio/styles/bootstrap.css",
+		"/Users/Darien/Downloads/bootstrap-sass-3.2.0/assets/stylesheets/bootstrap.scss",
+		"/Applications/MAMP/htdocs/Responsive-Portfolio/styles/sass/bootstrap.scss",
+		"/Applications/MAMP/htdocs/Responsive-Portfolio/styles/normalize.css",
+		"/Applications/MAMP/htdocs/Responsive-Portfolio/styles/main.css",
+		"/Applications/MAMP/htdocs/Lean/styles/sass/main.css.scss",
+		"/Applications/MAMP/htdocs/Lean/styles/main.css",
+		"/Applications/MAMP/htdocs/Lean/styles/main.css.scss",
+		"/Users/Darien/Desktop/purple.svg",
+		"/Users/Darien/Downloads/PopCap_expats_launch_new_studio__and_it_has_an_experimental_staff_system.php",
+		"/Applications/MAMP/htdocs/ModernProdigy/index.php",
+		"/Applications/MAMP/htdocs/ModernProdigy/Includes/HTML/footer.php",
+		"/Applications/MAMP/htdocs/ModernProdigy/Includes/HTML/header.php",
+		"/Applications/MAMP/htdocs/ModernProdigy/Includes/Styles/main.css",
+		"/Applications/MAMP/htdocs/ModernProdigy/Includes/Styles/pure.css",
+		"/Applications/MAMP/MAMP.app/test.php",
+		"/Users/Darien/Desktop/test.php"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"debug",
+			"game",
+			"Run",
+			"hearts",
+			"this.hearts.length",
+			"enemy",
+			"entities",
+			"arena",
+			"Hero",
+			"arena",
+			"this.arena",
+			"MN.Arena",
+			"coord",
+			"coordY",
+			"coordX",
+			"tile[1]",
+			"tile[0]",
+			"this._ship",
+			"SysMenu",
+			"playmusic",
+			"jsb",
+			"engineDir",
+			"engineDir =",
+			"moduleConfig",
+			"module.confi",
+			"primary-icon",
+			"$color-title",
+			"extend",
+			"accebt",
+			"console.log",
+			".section",
+			"navbar",
+			"feature-boxes-primary",
+			"row",
+			"justify",
+			"<img",
+			"Read More",
+			"        \n",
+			"        "
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"icon-primary",
+			"$color-text"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "chirpion.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 207.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
