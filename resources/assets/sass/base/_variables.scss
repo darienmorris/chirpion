@@ -1,0 +1,140 @@
+$white: #fff;
+
+
+$color-seam: $light-gray;
+
+$primary-bg-color: #fff;
+
+
+// Colors
+$blue: #477DCA;
+$dark-gray: #555;
+$medium-gray: #999;
+$gray: #bbb;
+$light-gray: #DDD;
+$light-red: #FBE3E4;
+$light-yellow: #FFF6BF;
+$light-green: #E6EFC2;
+$green: #5DBFAE;
+$dark-red:#c66f7e;
+$red:#E3625A;
+$white: #fff;
+
+$color-primary: #26A6D1;											// was: #6579DA;
+$color-primary-light: lighten($color-primary, 5);
+$color-primary-dark: darken($color-primary, 5);
+$color-primary-darker: darken($color-primary, 10);
+
+$color-secondary: #d15126;											// was: #f89825;
+$color-secondary-dark: darken($color-secondary, 10);
+$color-secondary-light: lighten($color-secondary, 10);
+
+$color-accent: #26d1a7;												// was: #4AB19F;						
+$color-accent-light: lighten($color-accent, 5);
+$color-accent-dark: darken($color-accent, 5);
+
+$color-primary-contrast: #FFA76B;									// was: #f6f7fd;
+
+// Background Color
+$color-background: white;
+$color-well: #f5f5f5;
+$color-well-dark:#b5b5b5;
+$color-bg-dark:#778899;
+$color-bg-light:#f7fcff;
+
+$color-footer-bg: #333;
+
+$color-contrast:#fff;
+$color-contrast-dark:darken($color-contrast, 5);
+
+// Font Colors
+$color-font: $dark-gray;
+$color-font-sub: $medium-gray;
+$color-font-contrast: $white;
+
+// Link Colors
+$color-link: $color-accent;						// was: $color-primary
+$color-link-hover: $color-accent-dark;			// was: $color-primary-dark
+$color-button: $color-link;
+$color-button-hover: $color-link-hover;
+$color-menu-item: #333;
+
+// Social Media
+$color-twitter:#26A6D1;
+$color-facebook:#3B5998;
+
+$color-neutral-5:#f8f8f8;
+$color-neutral-4:#f2f2f2;
+$color-neutral-3:#e8e8e8;
+$color-neutral-2:#e2e2e2;
+
+$color-white-hover: #e8e8e8;
+$color-divider: $light-gray;
+
+// Border color
+$color-border-light: $light-gray;
+$color-border: $gray;
+$color-border-dark: $medium-gray;
+$base-border: 1px solid $color-border;
+$base-divider: 1px solid $color-divider;
+
+$text-weight-boldest: 900;
+$text-weight-bolder: 700;
+$text-weight-normal:500;
+$text-weight-lighter:300;
+$text-weight-lightest:100;
+
+// Forms
+$color-form-border: $color-border;
+$color-form-border-hover: darken($color-border, 10);
+$color-form-border-focus: $color-accent;
+$form-border-radius: $base-border-radius;
+$form-box-shadow: inset 0 1px 3px rgba(black,0.06);
+$form-box-shadow-focus: $form-box-shadow, 0 0 5px rgba(darken($color-form-border-focus, 5), 0.7);
+$form-font-size: $base-font-size;
+$form-font-family: $base-font-family;
+
+// Spacing
+$spacing-xs: u(1rem);
+$spacing-sm: u(1.5rem);
+$spacing-md: u(2rem);
+$spacing-lg: u(2.5rem);
+$spacing-xl: u(3rem);
+
+
+//## Font, line-height, and color for body text, headings, and more.
+
+$font-family-sans-serif:  			"Open Sans", sans-serif !default;
+$font-family-heading-sans-serif:  	"Lato", sans-serif !default;
+$font-family-serif:       			Georgia, "Times New Roman", Times, serif !default;
+$font-family-base:        			$font-family-sans-serif !default;
+
+$font-size-base: 		16px !default;					// 16px - using px value instead of u(1rem) so it can be used for maths
+
+
+
+$line-height-base: 		22 / strip-units($font-size-base) !default; 			// 22/16
+$line-height-computed:   floor(($font-size-base * $line-height-base)) !default; // ~22px
+
+$font-size-large:       u(1.25rem) !default; 			// 20px
+$font-size-small:       u(0.85rem) !default; 			// ~13.6px
+
+$font-size-h1: 			u(2.5rem) !default;				// 36px
+$font-size-h2: 			u(2rem) !default;				// 32px
+$font-size-h3: 			u(1.75rem) !default;			// 28px
+$font-size-h4: 			u(1.5rem) !default;				// 24px
+$font-size-h5: 			u(1.25rem) !default;			// 20px
+$font-size-h6: 			$font-size-base !default;		// 16px
+
+$font-size-display-4: 	u(7rem) !default;				// 112px
+$font-size-display-3: 	u(3.5rem) !default;				// 56px
+$font-size-display-2: 	u(2.8125rem) !default;			// 45px
+$font-size-display-1: 	u(2.125rem) !default;			// 34px
+
+$font-size-subscript-: 	u(0.6rem) !default;				// ~9.6px
+
+$headings-font-family: 	$font-family-heading-sans-serif !default;
+$headings-font-weight: 	400 !default;
+$headings-line-height: 	1.1 !default;
+$headings-color: 		darken($primary-bg-color, 65%) !default;		// contrast ratio of 7:1
+$headings-small-color: 	darken($primary-bg-color, 54%) !default;		// contrast ratio of 4.6:1

@@ -11,11 +11,23 @@
 </head>
 
 <body>
+
+	<header id='main-nav' class='nav nav-main'>
+		<ul class='nav-horizontal container'>
+			<li class='nav-item nav-item-left'>Chirpion</li>
+			<li class='nav-item nav-item-right'>Sign Up</li>
+			<li class='nav-item nav-item-right'>Sign In</li>
+		</ul>
+	</header>
+
 	<div class='app'>
 		@yield('content')
 	</div>
 
 
+	<footer id='main-footer'>
+	</footer>
+	
 	@yield('footer')
 </body>
 </html>

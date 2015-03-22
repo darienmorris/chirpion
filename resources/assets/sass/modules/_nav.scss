@@ -1,0 +1,23 @@
+.nav {
+	@include span-columns(12);
+	background-color:$white;
+	height:50px;
+	border-bottom:1px solid $color-seam;
+
+}
+
+.nav-horizontal {
+	@include clearfix();
+}
+
+.nav-item {
+	padding:12px 25px;
+}
+
+.nav-item-left {
+	float:left;
+}
+
+.nav-item-right {
+	float:right;
+}

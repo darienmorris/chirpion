@@ -1,9 +1,3 @@
-html {
-  box-sizing: border-box; }
-
-*, *::after, *::before {
-  box-sizing: inherit; }
-
 button, input[type="button"], input[type="reset"], input[type="submit"],
 button {
   -webkit-appearance: none;
@@ -190,5 +184,66 @@ img,
 picture {
   margin: 0;
   max-width: 100%; }
+
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+/* 1 */
+.container {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto; }
+  .container::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+.hero {
+  padding: 20rem 10rem; }
+
+.hero-title {
+  color: #fff;
+  font-size: 3.5rem;
+  text-align: center; }
+
+input.hero-input {
+  padding: 1rem; }
+
+.bg-main-hero {
+  background-color: #26A6D1; }
+
+.nav {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  background-color: #fff;
+  height: 50px;
+  border-bottom: 1px solid #ddd; }
+  .nav:last-child {
+    margin-right: 0; }
+
+.nav-horizontal::after {
+  clear: both;
+  content: "";
+  display: table; }
+
+.nav-item {
+  padding: 12px 25px; }
+
+.nav-item-left {
+  float: left; }
+
+.nav-item-right {
+  float: right; }
+
+html, body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #26A6D1; }
 
 /*# sourceMappingURL=main.css.map */
