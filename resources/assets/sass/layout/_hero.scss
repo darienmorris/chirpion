@@ -1,5 +1,6 @@
 .hero {
 	padding: 20rem 10rem;
+	height:100%;
 }
 
 .hero-title {
@@ -10,4 +11,9 @@
 
 input.hero-input {
 	padding:u(1rem);
+}
+
+.hero-input-title {
+	font-size:$font-size-h3;
+	color:$white;
 }

@@ -200,9 +200,30 @@ html {
     clear: both;
     content: "";
     display: table; }
+  .container::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+.block-sm {
+  margin-bottom: 2rem;
+  margin-top: 2rem; }
+
+.block-md {
+  margin-bottom: 4rem;
+  margin-top: 4rem; }
+
+.block-lg {
+  margin-bottom: 6rem;
+  margin-top: 6rem; }
+
+.block-xl {
+  margin-bottom: 8rem;
+  margin-top: 8rem; }
 
 .hero {
-  padding: 20rem 10rem; }
+  padding: 20rem 10rem;
+  height: 100%; }
 
 .hero-title {
   color: #fff;
@@ -212,8 +233,13 @@ html {
 input.hero-input {
   padding: 1rem; }
 
+.hero-input-title {
+  font-size: 1.75rem;
+  color: #fff; }
+
 .bg-main-hero {
-  background-color: #26A6D1; }
+  background-color: #26A6D1;
+  background-image: url("http://www.transparenttextures.com/patterns/batthern.png"); }
 
 .nav {
   float: left;
@@ -240,7 +266,34 @@ input.hero-input {
 .nav-item-right {
   float: right; }
 
-html, body {
+.category-group {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  padding: 0 4rem;
+  border: 1px solid #DDD;
+  border-radius: 3px; }
+  .category-group:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 40em) {
+    .category-group {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 23.23176%; }
+      .category-group:last-child {
+        margin-right: 0; } }
+
+.category-group-header {
+  padding: 0.5rem;
+  text-align: center; }
+
+.category-group-title {
+  font-size: 1.25rem;
+  color: #fff; }
+
+html, body, .app {
   margin: 0;
   width: 100%;
   height: 100%;

@@ -101,6 +101,9 @@ $spacing-md: u(2rem);
 $spacing-lg: u(2.5rem);
 $spacing-xl: u(3rem);
 
+// Modules
+$module-border-radius: $base-border-radius;
+
 
 //## Font, line-height, and color for body text, headings, and more.
 
@@ -138,3 +141,12 @@ $headings-font-weight: 	400 !default;
 $headings-line-height: 	1.1 !default;
 $headings-color: 		darken($primary-bg-color, 65%) !default;		// contrast ratio of 7:1
 $headings-small-color: 	darken($primary-bg-color, 54%) !default;		// contrast ratio of 4.6:1
+
+$spacing-xxs: u(0.5rem);
+$spacing-xs: u(1rem);
+$spacing-sm: u(2rem);
+$spacing-md: u(4rem);
+$spacing-lg: u(6rem);
+$spacing-xl: u(8rem);
+$spacing-xxl: u(10rem);
+

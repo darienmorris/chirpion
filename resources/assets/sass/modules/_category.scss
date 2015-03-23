@@ -1,0 +1,43 @@
+.category-group {
+	@include span-columns(12);
+	padding: 0 $spacing-md;
+
+
+	@include media($medium) {
+		@include span-columns(3);
+	}
+
+	border:1px solid $light-gray;
+	border-radius:$module-border-radius;
+}
+
+.category-group-header {
+	padding:$spacing-xxs;
+	text-align:center;
+
+}
+
+.category-group-header.category-programming {
+
+}
+
+.category-group-header.category-news {
+
+}
+
+.category-group-header.category-cooking {
+
+}
+
+.category-group-title {
+	font-size:$font-size-h5;
+	color:$white;
+}
+
+.category-group-list {
+
+}
+
+.category-group-item {
+
+}
