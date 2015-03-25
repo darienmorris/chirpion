@@ -20,12 +20,12 @@ $dark-red:#c66f7e;
 $red:#E3625A;
 $white: #fff;
 
-$color-primary: #26A6D1;											// was: #6579DA;
+$color-primary: #55acee;											// was: #6579DA;
 $color-primary-light: lighten($color-primary, 5);
 $color-primary-dark: darken($color-primary, 5);
 $color-primary-darker: darken($color-primary, 10);
 
-$color-secondary: #d15126;											// was: #f89825;
+$color-secondary: #25cca2;											// was: #f89825;
 $color-secondary-dark: darken($color-secondary, 10);
 $color-secondary-light: lighten($color-secondary, 10);
 
@@ -64,8 +64,11 @@ $color-twitter:#26A6D1;
 $color-facebook:#3B5998;
 
 $color-neutral-5:#f8f8f8;
+$color-neutral-5-title:#a8a8a8;
 $color-neutral-4:#f2f2f2;
+$color-neutral-4-title:#a2a2a2;
 $color-neutral-3:#e8e8e8;
+$color-neutral-3-title:#989898;
 $color-neutral-2:#e2e2e2;
 
 $color-white-hover: #e8e8e8;
@@ -95,11 +98,13 @@ $form-font-size: $base-font-size;
 $form-font-family: $base-font-family;
 
 // Spacing
+$spacing-xxs: u(0.5rem);
 $spacing-xs: u(1rem);
 $spacing-sm: u(1.5rem);
 $spacing-md: u(2rem);
 $spacing-lg: u(2.5rem);
 $spacing-xl: u(3rem);
+$spacing-xxl: u(3.5rem);
 
 // Modules
 $module-border-radius: $base-border-radius;

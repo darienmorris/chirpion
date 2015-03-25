@@ -1,6 +1,6 @@
 .nav {
 	@include span-columns(12);
-	background-color:$white;
+	background-color:$color-neutral-5;
 	height:50px;
 	border-bottom:1px solid $color-seam;
 
@@ -12,6 +12,7 @@
 
 .nav-item {
 	padding:12px 25px;
+	color:$color-neutral-5-title;
 }
 
 .nav-item-left {
@@ -20,4 +21,8 @@
 
 .nav-item-right {
 	float:right;
+}
+
+.nav-logo {
+	height:26px;
 }

@@ -4,8 +4,12 @@
 @import "vendor/base/base";
 @import "vendor/neat/neat";
 @import "mixins/u";
+@import "mixins/omega-reset";
+
 
 @import "base/variables";
+@import "base/typography";
+
 
 @import "layout/container";
 @import "layout/block";
@@ -19,6 +23,8 @@
 @import "modules/nav";
 @import "modules/category";
 
+
+@import "shame";
 
 
 html,body,.app {
