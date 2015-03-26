@@ -17,7 +17,7 @@
 <section class='row-sm category-groups page-buffer'>
 
 	<div class='container'>
-		<h4 class='module-title'>Can't decide? Choose one of our favorites</h4>
+		<h4 class='text-accent'>Can't decide? Choose one of our favorites</h4>
 		<div>
 			<div class='category-group'>
 				<div class='category-group-header'>

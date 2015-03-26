@@ -2,6 +2,14 @@
 	color:$white;
 }
 
+.text-primary {
+	color:$color-primary;
+}
+
+.text-accent {
+	color:$color-accent;
+}
+
 .page-buffer {
 	padding-left: $spacing-sm;
 	padding-right: $spacing-sm;

@@ -15,7 +15,7 @@
 	<header id='main-nav' class='nav nav-main'>
 		<ul class='nav-horizontal container'>
 			<li class='nav-item nav-item-left'><img src='../resources/assets/logo.png' class='nav-logo'/></li>
-			<li class='nav-item nav-item-right'>Sign in with Twitter</li>
+			<li class='nav-item nav-item-right text-primary'>Sign in with Twitter</li>
 		</ul>
 	</header>
 

@@ -1,5 +1,5 @@
 .category-group {
-	box-shadow: 1px 1px 10px #21b691;
+	box-shadow: 1px 1px 5px $color-cream-dark;
 	margin-bottom:$spacing-xs;
 
 	@include span-columns(12);
@@ -54,6 +54,7 @@
 }	
 
 .category-groups {
-	@extend .bg-secondary;
-	border-top:1px solid $color-secondary-dark;
+	border-top:1px solid $color-cream-dark;
+	@extend .bg-neutral;
+
 }

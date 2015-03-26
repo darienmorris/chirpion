@@ -25,11 +25,11 @@ $color-primary-light: lighten($color-primary, 5);
 $color-primary-dark: darken($color-primary, 5);
 $color-primary-darker: darken($color-primary, 10);
 
-$color-secondary: #25cca2;											// was: #f89825;
+$color-secondary: #57C699;											// was: #f89825;
 $color-secondary-dark: darken($color-secondary, 10);
 $color-secondary-light: lighten($color-secondary, 10);
 
-$color-accent: #26d1a7;												// was: #4AB19F;						
+$color-accent: #FDA08E;												// was: #4AB19F;						
 $color-accent-light: lighten($color-accent, 5);
 $color-accent-dark: darken($color-accent, 5);
 
@@ -63,6 +63,8 @@ $color-menu-item: #333;
 $color-twitter:#26A6D1;
 $color-facebook:#3B5998;
 
+$color-cream:#FBF1EB;
+$color-cream-dark: darken($color-cream,5);
 $color-neutral-5:#f8f8f8;
 $color-neutral-5-title:#a8a8a8;
 $color-neutral-4:#f2f2f2;
